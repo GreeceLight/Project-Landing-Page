@@ -3,30 +3,30 @@ body{
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
+    font-family: Roboto;
+}
+
+p, h1, h3, body{
     padding: 0%;
     margin: 0%;
-    font-family: Roboto;
-    gap: 20px;
 }
 
 .header {
     display: flex;
     flex-direction: column;
-    padding: 0px 200px 0px 200px;
+    padding: 0px 200px;
     background-color: #1F2937;
     color: #F9FAF8;
 }
 .header #inheader1{
     display: flex;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 0px;
     align-items: center;
     justify-content: space-between;
 }
 .header #inheader2{
     display: flex;
-    width: auto;
-    padding: 100px 0px 100px 0px;
-    flex-direction: row;
+    padding: 100px 0px;
     justify-content: space-between;
     align-items: center;
     gap: 80px;
@@ -37,14 +37,11 @@ body{
 }
 
 .content {
-
     display: flex;
-    flex: 0 0 1;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
+    padding: 50px 0px;
     margin: 0%;
-    text-align: center;
     background-color: white;
 }
 
@@ -52,12 +49,13 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 20px;
+    text-align: center;
+    margin: 50px;
 }
 
 .randominfo div{
     width: 200px;
-    padding: 10px;
+    padding: 20px;
 }
 .randominfo img{
     width: 200px;
@@ -72,59 +70,42 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 100px 0px;
+    margin-bottom: 10px;
     
     background-color: #E5E7EB;
-    padding: 100px 0px 100px 0px;
-
-    font-size: 24px;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    text-align: initial;
-    
-    text-align: left;
-    overflow-wrap: break-word;
-    margin-bottom: 10px;
-
+    font:italic 28px 'Times New Roman'; 
 }
 .quotesection #author{
-    margin-top: 10px;
-    font-size: 20px;
-    font-weight: 450;
+    font: bold 20px/50px 'Times New Roman';
 }
 
 .signup{
-    width: 60%;
     display: flex;
-    flex-direction: row;
+    width: 60%;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 60px 40px 60px;
+    padding: 40px 60px;
     margin: 40px;
 
-    text-align: left;
     color: #F9FAF8;
-
     background-color: #3882F6;
     border-radius: 10px;
 }
 
-p, h1, h3{
-    padding: 0%;
-    margin: 0%;
-}
 
 button {
     color: white;
     background-color: #3882F6;
-    padding: 5px 20px 5px 20px;
-    margin: 10px 0px 10px 0px;
+    padding: 5px 20px;
+    margin: 10px 0px;
     border: 2px solid #E5E7EB;
     border-radius: 5px;
 }
     
 .footer{
     display: flex;
-    height: 40px;
+    height: 30px;
     flex: 1 0 1;
     justify-content: center;
     padding: 30px;
