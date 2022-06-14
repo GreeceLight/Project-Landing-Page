@@ -31,6 +31,10 @@ body{
     align-items: center;
     gap: 80px;
 }
+.header #headerbutton{
+    border: #3882F6;
+    font-weight: 600;
+}
 
 .content {
 
